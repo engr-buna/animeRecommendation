@@ -1,0 +1,127 @@
+body {
+    background-color: aqua;
+    text-align:justify;
+}
+
+h1 {
+    font-family: cursive, sans-serif;
+    font-size: 275%;
+    text-align: center;
+    border-width: 1px;
+    border-color: white;
+    border-style: hidden;
+    border-radius: 25px;
+    background: red;
+    animation-name: titleColor;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes titleColor {
+    0% { background-color: white; 
+
+    }
+    25% { background-color: yellow; 
+
+    }
+    50% { background-color: green; 
+
+    }
+    75% { background-color: red; 
+
+    }
+    100% { background-color: pink; 
+
+    }
+}
+
+#list {
+    font-family: gill sans;
+}
+
+li {
+    transition: all 1s ease;
+}
+
+li:hover {
+    font-size: 25px;
+    color: darkblue;
+}
+
+h2 {
+    font-family: arial narrow bold;
+    font-size: 195%;
+}
+
+h3 {
+    font-size: 110%;
+}
+
+#death-note {
+    width: 390px;
+}
+
+#golden-time {
+    width: 315px;
+}
+
+#erase {
+    width: 390px;
+}
+
+#food-wars {
+    width: 305px;
+}
+
+#yowamushi-pedal {
+    width: 305px;
+}
+
+#your-lie {
+    width: 390px;
+}
+
+#shield-hero {
+    width: 305px;
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+#poster1 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+  }
+
+  #poster2 {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+  }
+
+#youtube {
+    border-width: 5px;
+    border-color: rgb(35, 133, 6);
+    border-style: dashed;
+    }
+
